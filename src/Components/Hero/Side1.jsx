@@ -38,7 +38,7 @@ const Side1 = () => {
             <h1 className='text-white text-[16px] font-bold' >{item.title}</h1>
             <p className='text-white text-[14px] font-semibold'>{item.description}</p>
             <button className='bg-white py-[5px] px-[25px] 
-            rounded-3xl hover:scale-[1.1] transition-transform duration-300'>{item.button}</button>
+            rounded-3xl hover:scale-[1.1] transition-transform duration-300 text-[14px] font-bold'>{item.button}</button>
           </div>
               )
             })
