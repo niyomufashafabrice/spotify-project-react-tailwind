@@ -4,7 +4,7 @@ import Side2 from './Side2'
 
 const Hero = () => {
   return (
-    <div className='bg-red-300 h-[100vh]'>
+    <div className='bg-black h-[100vh]'>
       <div className=" flex pb-[10px] px-[10px] gap-[10px]">
         <Side1 />
         <Side2 />

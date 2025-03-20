@@ -157,7 +157,7 @@ const Side2 = () => {
             flex flex-col items-start hover:bg-gradient-to-b
              from-gray-900 to-gray-800 p-[20px] relative rounded-2xl
               transition-transform duration-300 cursor-pointer' key={item.id}>
-             <img src={item.img} alt="" className='h-[160px] w-[160px] object-cover rounded-full' />
+             <img src={item.img} alt="" className='h-[160px] w-[-5px] object-cover rounded-full' />
              <h1 className='text-white text-lg font-bold'>{item.name}</h1>
              <p className='text-gray-400'>{item.type}</p>
              <span className='absolute top-[45%] left-[65%] translate-x-[-50%] translate-y-[-50%] text-black items-center justify-center
