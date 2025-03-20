@@ -36,8 +36,8 @@ const Side1 = () => {
               return(
                 <div className='bg-gray-800 flex flex-col gap-2 justify-center items-start p-[10px] rounded-2xl' key={item.id}>
             <h1 className='text-white text-[16px] font-bold' >{item.title}</h1>
-            <p className='text-white text-[1px] font-semibold'>{item.description}</p>
-            <button className='bg-white py-[10px] px-[30px] 
+            <p className='text-white text-[14px] font-semibold'>{item.description}</p>
+            <button className='bg-white py-[5px] px-[25px] 
             rounded-3xl hover:scale-[1.1] transition-transform duration-300'>{item.button}</button>
           </div>
               )
