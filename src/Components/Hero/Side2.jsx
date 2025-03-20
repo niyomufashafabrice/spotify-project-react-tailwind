@@ -144,7 +144,7 @@ const albums = [
 ]
 const Side2 = () => {
   return (
-    <div className='bg-gray-900 w-[74%] rounded-xl py-[90px] h-[80vh] px-[30px] flex flex-col gap-[30px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-red-900'>
+    <div className='bg-gray-900 w-[74%] rounded-xl py-[0px] h-[80vh] px-[30px] flex flex-col gap-[30px] overflow-y-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-red-900'>
      <div className='Popular-artist'>
      <div>
         <span className='text-white text-2xl font-bold'>Popular artists</span>
