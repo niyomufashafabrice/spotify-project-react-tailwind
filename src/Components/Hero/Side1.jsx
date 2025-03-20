@@ -46,7 +46,7 @@ const Side1 = () => {
          
           
         </div>
-        <div className=' flex flex-col gap-2 items-start justify-center  px-[20px] py-[20px]'>
+        <div className=' flex flex-col gap-2 items-start justify-center  px-[20px] py-[10px]'>
           <ul className='flex space-x-4 text-gray-400 text-[11px]'>
             <li><a href="#">Legal</a></li>
             <li><a href="#">Safety & Privacy Center</a></li>
@@ -60,7 +60,7 @@ const Side1 = () => {
           <span className='text-white cursor-pointer text-[12px]'>Cookies</span>
           <div>
             <button className=' hover:scale-[1.1] transition-transform duration-300
-            flex items-center gap-2 text-white border-1 border-white py-[5px] px-[20px] rounded-3xl cursor-pointer'>
+            flex items-center gap-2 text-white border-1 border-white py-[5px] px-[20px] rounded-3xl cursor-pointer text-[14px]'>
             <HiOutlineGlobeAlt />
               English
             </button>
