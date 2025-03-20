@@ -196,11 +196,11 @@ const Side2 = () => {
               <div 
         className='group
             flex flex-col items-start hover:bg-gradient-to-b
-             from-gray-900 to-gray-800 p-[20px] relative rounded-2xl
+             from-gray-900 to-gray-800 p-[10px] relative rounded-2xl
               transition-transform duration-300 cursor-pointer' key={data.id}
         >
-        <img src={data.img} alt="" className='h-[190px] w-[167px] object-cover' />
-        <h1 className='text-white text-lg font-bold'>{data.song}</h1>
+        <img src={data.img} alt="" className='h-[160px] w-[138px] object-cover' />
+        <h1 className='text-white text-base font-bold'>{data.song}</h1>
         <p className='text-gray-400'>{data.Artist}</p>
              <span className='absolute top-[45%] left-[65%] translate-x-[-50%] translate-y-[-50%] text-black items-center justify-center
                bg-[#3BE477] h-[50px] w-[50px] rounded-full cursor-pointer hidden group-hover:flex hover:scale-[1.2]
