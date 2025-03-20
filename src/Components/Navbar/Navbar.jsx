@@ -20,7 +20,7 @@ const Navbar = () => {
         ">
             <input type="text" placeholder='What do you want to play?'
             className='py-[16px] w-[100%] order-2 px-[80px]
-            rounded-4xl bg-gray-900 font-bold text-xl'
+            rounded-4xl bg-gray-900 font-bold text-[16px]'
             />
           <CiSearch className='left-3 h-[40px] w-[10%] order-1 absolute'/>
        
@@ -28,12 +28,12 @@ const Navbar = () => {
         
         </div>
         <div className="menLink flex justify-center items-center w-[40%] text-gray-500">
-          <ul className='flex space-x-4 border-r-3 border-white justify-center items-center  w-[55%] font-bold text-xl'>
+          <ul className='flex space-x-4 border-r-3 border-white justify-center items-center  w-[55%] font-bold text-[16px]'>
             <li>Premium</li>
             <li>Support</li>
             <li>Download</li>
           </ul>
-          <ul className='flex space-x-4  w-[45%] justify-center items-center font-bold text-xl'>
+          <ul className='flex space-x-4  w-[45%] justify-center items-center font-bold text-[16px]'>
             <li className='flex items-center gap-1 '>
                 <GrInstallOption />
                 Install App</li>
