@@ -9,8 +9,8 @@ const Hero = () => {
         <Side1 />
         <Side2 />
       </div>
-      <div className='flex flex-row justify-between items-center px-[30px] py-[20px]
-      bg-gradient-to-r from-[#AB2C9A] to-[#5D8AE7]
+      <div className='flex flex-row justify-between items-center px-[30px] py-[0px]
+      bg-gradient-to-r from-[#AB2C9A] to-[#5D8AE7] h-[10vh]
       '>
         <div>
           <h1 className='text-white text-xl font-bold'>Preview of Spotify</h1>
