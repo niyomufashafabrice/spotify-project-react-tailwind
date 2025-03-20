@@ -20,7 +20,7 @@ const PlaylistData =[
 ]
 const Side1 = () => {
   return (
-    <div className='bg-gray-900 w-[26%] rounded-xl py-[30px] h-[75vh] px-[20px]'>
+    <div className='bg-gray-900 w-[26%] rounded-xl py-[30px] h-[80vh] px-[20px]'>
       <div className=''>
         <div className='flex items-start text-white justify-between px-[20px] h-[90px]'>
         <span className='flex items-center gap-5'><IoLibraryOutline />
@@ -35,8 +35,8 @@ const Side1 = () => {
             PlaylistData.map((item)=>{
               return(
                 <div className='bg-gray-800 flex flex-col gap-4 justify-center items-start p-[20px] rounded-2xl' key={item.id}>
-            <h1 className='text-white text-xl font-bold' >{item.title}</h1>
-            <p className='text-white text-lg font-semibold'>{item.description}</p>
+            <h1 className='text-white text-[16px] font-bold' >{item.title}</h1>
+            <p className='text-white text-[1px] font-semibold'>{item.description}</p>
             <button className='bg-white py-[10px] px-[30px] 
             rounded-3xl hover:scale-[1.1] transition-transform duration-300'>{item.button}</button>
           </div>
