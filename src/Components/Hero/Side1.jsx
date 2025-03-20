@@ -34,7 +34,7 @@ const Side1 = () => {
           {
             PlaylistData.map((item)=>{
               return(
-                <div className='bg-gray-800 flex flex-col gap-2 justify-center items-start p-[10px] rounded-2xl' key={item.id}>
+                <div className='bg-gray-800 flex flex-col gap-4 justify-center items-start p-[20px] rounded-2xl' key={item.id}>
             <h1 className='text-white text-[16px] font-bold' >{item.title}</h1>
             <p className='text-white text-[14px] font-semibold'>{item.description}</p>
             <button className='bg-white py-[5px] px-[25px] 
