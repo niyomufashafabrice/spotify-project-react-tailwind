@@ -41,7 +41,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="loginbtn w-[10%]">
-            <button className='bg-white text-black text-xl py-[16px]
+            <button className='bg-white text-black text-[16px] py-[5px]
              px-[50px] font-semibold rounded-4xl hover:scale-[1.1] transition-transform duration-300'>Login</button>
         </div>
       </div>
