@@ -46,7 +46,7 @@ const Side1 = () => {
          
           
         </div>
-        <div className=' flex flex-col gap-2 items-start justify-center  px-[20px] py-[30px]'>
+        <div className=' flex flex-col gap-2 items-start justify-center  px-[20px] py-[20px]'>
           <ul className='flex space-x-4 text-gray-400 text-[11px]'>
             <li><a href="#">Legal</a></li>
             <li><a href="#">Safety & Privacy Center</a></li>
