@@ -199,7 +199,7 @@ const Side2 = () => {
              from-gray-900 to-gray-800 p-[10px] relative rounded-2xl
               transition-transform duration-300 cursor-pointer' key={data.id}
         >
-        <img src={data.img} alt="" className='h-[130px] w-[138px] object-cover' />
+        <img src={data.img} alt="" className='h-[140px] w-[138px] object-cover rounded-xl' />
         <h1 className='text-white text-base font-bold'>{data.song}</h1>
         <p className='text-gray-400'>{data.Artist}</p>
              <span className='absolute top-[45%] left-[65%] translate-x-[-50%] translate-y-[-50%] text-black items-center justify-center
@@ -230,7 +230,7 @@ const Side2 = () => {
              from-gray-900 to-gray-800 p-[10px] relative rounded-2xl
               transition-transform duration-300 cursor-pointer' key={data.id}
         >
-        <img src={data.imagee} alt="" className='h-[140px] w-[138px] object-cover rounded-2xl' />
+        <img src={data.imagee} alt="" className='h-[140px] w-[138px] object-cover rounded-xl' />
         <h1 className='text-white text-base font-bold'>{data.name}</h1>
         <p className='text-gray-400'>{data.artists}</p>
              <span className='absolute top-[45%] left-[65%] translate-x-[-50%] translate-y-[-50%] text-black items-center justify-center
