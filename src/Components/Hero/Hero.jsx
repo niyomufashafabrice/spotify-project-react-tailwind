@@ -17,7 +17,7 @@ const Hero = () => {
           <p className='text-white'>Sign up get unlimited songs and podcasts with occasional ads. No credit card needed </p>
         </div>
         <div>
-          <button className='bg-white py-[10px] px-[30px] rounded-3xl 
+          <button className='bg-white py-[5px] px-[30px] rounded-3xl 
           cursor-pointer hover:scale-[1.1] transition-transform duration-300
           '>Sign up free</button>
         </div>
