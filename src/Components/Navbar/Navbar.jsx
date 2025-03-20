@@ -7,7 +7,7 @@ import { PiBrowserDuotone } from "react-icons/pi";
 
 const Navbar = () => {
   return (
-    <div className='bg-black h-[90px] justify-start flex'>
+    <div className='bg-black  justify-start flex h-[10vh]'>
       <div className="container  flex text-white justify-start items-center w-[100%]">
         
       <div className="logo flex w-[10%] px-2 gap-4 pl-5">
