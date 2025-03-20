@@ -20,7 +20,7 @@ const PlaylistData =[
 ]
 const Side1 = () => {
   return (
-    <div className='bg-gray-900 w-[26%] rounded-xl py-[30px] h-[80vh] px-[20px]'>
+    <div className='bg-gray-900 w-[26%] rounded-xl py-[30px] h-[75vh] px-[20px]'>
       <div className=''>
         <div className='flex items-start text-white justify-between px-[20px] h-[90px]'>
         <span className='flex items-center gap-5'><IoLibraryOutline />
