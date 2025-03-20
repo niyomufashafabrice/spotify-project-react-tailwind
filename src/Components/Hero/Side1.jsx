@@ -29,7 +29,7 @@ const Side1 = () => {
         </div>
 
         <div className='
-        flex flex-col gap-[30px] h-[250px] overflow-y-auto scrollbar-thin scrollbar-red-500 scrollbar-track-gray-900 pb-[30px] scrollbar'>
+        flex flex-col gap-[30px] h-[200px] overflow-y-auto scrollbar-thin scrollbar-red-500 scrollbar-track-gray-900 pb-[30px] scrollbar'>
 
           {
             PlaylistData.map((item)=>{
