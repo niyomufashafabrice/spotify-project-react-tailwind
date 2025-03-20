@@ -57,7 +57,7 @@ const Side1 = () => {
             <li><a href="#">About Ads</a></li>
             <li><a href="#">Accessibility</a></li>
           </ul>
-          <span className='text-white cursor-pointer'>Cookies</span>
+          <span className='text-white cursor-pointer text-[12px]'>Cookies</span>
           <div>
             <button className=' hover:scale-[1.1] transition-transform duration-300
             flex items-center gap-2 text-white border-1 border-white py-[5px] px-[20px] rounded-3xl cursor-pointer'>
