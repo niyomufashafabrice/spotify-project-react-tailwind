@@ -13,8 +13,8 @@ const Hero = () => {
       bg-gradient-to-r from-[#AB2C9A] to-[#5D8AE7] h-[8.5vh]
       '>
         <div>
-          <h1 className='text-white text-xl font-bold'>Preview of Spotify</h1>
-          <p className='text-white'>Sign up get unlimited songs and podcasts with occasional ads. No credit card needed </p>
+          <h1 className='text-white text-[14px] font-bold'>Preview of Spotify</h1>
+          <p className='text-white text-[16px]'>Sign up get unlimited songs and podcasts with occasional ads. No credit card needed </p>
         </div>
         <div>
           <button className='bg-white py-[5px] px-[30px] rounded-3xl 
